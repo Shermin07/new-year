@@ -92,6 +92,10 @@ p{
     text-align: center;
     padding: 15px 0;
     margin-top: 50px;
+    color: tomato;
+}
+.plan-title:hover{
+    color: yellowgreen;
 }
 .plans{
     display: flex;
@@ -120,19 +124,42 @@ p{
 }
 .time{
     padding-right: 90px;
+    background-image: url("images/watch.png"), url("images/gradient2.png");
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    height: 300px;
+    border-radius: 0 9px 0 9px;
+   margin: 0 63px;
+   
+   
 }
 .hand-watch{
     margin-top: 190px;
     margin-left: 160px;
-    background-image: url("images/watch.png");
-    background-size: 1000px;
-    background-repeat: no-repeat;
-   
     
+    
+    
+}
+.watch-title{
+    color: aliceblue;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 80px;
+    padding-bottom: 30px;
 }
 .watch{
     
     padding-right: 60px;
+}
+.call-button{
+    text-decoration: none;
+    color: tomato;
+    background-color: aliceblue;
+    border: 0 solid aliceblue;
+    border-radius: 3px;
+    padding: 8px 23px;
+   
+
 }
 footer{
     background-color: black;
@@ -142,17 +169,17 @@ footer{
     justify-content: space-around;
     padding-top: 140px;
     margin-top: 60px;
-    
+
 }
 .footer-title{
     padding-bottom: 19px;
     padding-top: 15px;
+    color: tomato;
 }
 .footer-link{
-    color: aliceblue;
+    color:aliceblue;
     margin-right: 30px;
-   ;
-}
+   }
 .footer-title:hover{
     color: yellowgreen;
 
