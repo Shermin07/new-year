@@ -73,6 +73,12 @@ background-color:yellowgreen;
     padding-left: 150px;
     margin-top: 80px;
 }
+.img-part{
+    background-color: tomato;
+    height: 440px;
+    width: 440px;
+    border-radius: 50%;
+}
 .experience-title{
     font-size: 30px;
     padding-bottom: 15px;
@@ -160,6 +166,10 @@ p{
     padding: 8px 23px;
    
 
+}
+.call-button:hover{
+background-color: yellowgreen;
+color: aliceblue;
 }
 footer{
     background-color: black;
