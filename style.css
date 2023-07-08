@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Belanosima', sans-serif;
+font-family: 'Geologica', sans-serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow-x: hidden !important;
+}
+
+header{
+    height: 800px;
+   width: auto;
+    background-image: url("images/banner/banner1.png");
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
+}
+    
+
+.believe-yourself{
+    padding-top: 280px;
+    padding-left: 90px;
+}
+.head-title{
+    font-size: 50px;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 120px;
+    color: tomato;
+}
+.head-title:hover{
+    color:yellowgreen
+}
+
+
+.head-description{
+    text-align: right;
+    padding-right: 120px;
+    padding-bottom: 45px;
+    padding-top: 15px;
+}
+.contact-link{
+    text-decoration: none;
+    border: 0 solid tomato;
+    padding: 9px 14px;
+    color: aliceblue;
+    text-align: center;
+    background-color: tomato;
+    border-radius: 3px;
+    margin-left: 297px;
+    
+}
+.contact-link:hover{
+background-color:yellowgreen;
+}
+.person-img{
+    height:550px ;
+
+    
+}
+.experience{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-content: center;
+    align-items: center;
+    padding-left: 150px;
+    margin-top: 80px;
+}
+.experience-title{
+    font-size: 30px;
+    padding-bottom: 15px;
+    color: tomato;
+}
+.experience-title:hover{
+color: yellowgreen;
+}
+p{
+    font-size: 13px;
+    font-weight: 100;
+}
+.plan-title{
+    text-align: center;
+    padding: 15px 0;
+    margin-top: 50px;
+}
+.plans{
+    display: flex;
+    justify-content: space-around;
+    margin: 0 80px;
+   
+
+}
+.start{
+    font-size: 18px;
+    color: gray;
+    font-weight: 500;
+}
+
+.social-icon{
+    height: 70px;
+    padding-bottom: 20px;
+}
+.icon{
+    height: 70px;
+    padding-bottom: 20px;
+    padding-left: 15px;
+    text-align: center;
+    padding-top: 20px;
+    
+}
+.time{
+    padding-right: 90px;
+}
+.hand-watch{
+    margin-top: 190px;
+    margin-left: 160px;
+    background-image: url("images/watch.png");
+    background-size: 1000px;
+    background-repeat: no-repeat;
+   
+    
+}
+.watch{
+    
+    padding-right: 60px;
+}
+footer{
+    background-color: black;
+    color: aliceblue;
+    height: 350px;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 140px;
+}
+.footer-title{
+    padding-bottom: 19px;
+    padding-top: 15px;
+}
+.footer-link{
+    color: aliceblue;
+    margin-right: 30px;
+   ;
+}
+.email{
+    padding-top: 10px;
+}
+.number{
+    padding-bottom: 19px;
+}
+.email-box{
+    height: 45px;
+    width: 260px;
+    margin-bottom: 30px;
+    border: 1px solid aliceblue;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 3px;
+}
+.button{
+    text-decoration: none;
+    color: tomato;
+    background-color: aliceblue;
+    border: 0 solid aliceblue;
+    border-radius: 3px;
+    padding: 8px 14px;
+}
