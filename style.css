@@ -78,6 +78,9 @@ background-color:yellowgreen;
     padding-bottom: 15px;
     color: tomato;
 }
+.correct{
+    color: tomato;
+}
 .experience-title:hover{
 color: yellowgreen;
 }
@@ -138,6 +141,8 @@ footer{
     display: flex;
     justify-content: space-around;
     padding-top: 140px;
+    margin-top: 60px;
+    
 }
 .footer-title{
     padding-bottom: 19px;
@@ -147,6 +152,10 @@ footer{
     color: aliceblue;
     margin-right: 30px;
    ;
+}
+.footer-title:hover{
+    color: yellowgreen;
+
 }
 .email{
     padding-top: 10px;
@@ -170,4 +179,9 @@ footer{
     border: 0 solid aliceblue;
     border-radius: 3px;
     padding: 8px 14px;
+}
+.button:hover{
+    background-color:yellowgreen;
+    color: aliceblue;
+    
 }
