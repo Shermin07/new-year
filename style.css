@@ -62,15 +62,15 @@ background-color:yellowgreen;
 }
 .person-img{
     height:550px ;
-    margin-top: -149px;
+    margin-top: -150px;
     margin-left: -19px;
 
     
 }
 .img-part{
     background-color: tomato;
-    height: 402px;
-    width: 402px;
+    height: 400px;
+    width: 400px;
     border-radius: 50%;
 }
 .experience{
@@ -79,7 +79,7 @@ background-color:yellowgreen;
     justify-content: center;
     align-items: center;
     padding-left: 150px;
-    margin-top: 80px;
+    margin-top: 190px;
 }
 
 .experience-title{
