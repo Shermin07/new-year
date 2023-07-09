@@ -62,8 +62,16 @@ background-color:yellowgreen;
 }
 .person-img{
     height:550px ;
+    margin-top: -149px;
+    margin-left: -19px;
 
     
+}
+.img-part{
+    background-color: tomato;
+    height: 402px;
+    width: 402px;
+    border-radius: 50%;
 }
 .experience{
     display: grid;
@@ -73,12 +81,7 @@ background-color:yellowgreen;
     padding-left: 150px;
     margin-top: 80px;
 }
-.img-part{
-    background-color: tomato;
-    height: 440px;
-    width: 440px;
-    border-radius: 50%;
-}
+
 .experience-title{
     font-size: 30px;
     padding-bottom: 15px;
